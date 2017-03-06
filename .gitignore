@@ -1,0 +1,19 @@
+.dist
+.DS_Store
+*.log
+*.cache
+*.sublime-workspace
+deployment.ini
+Thumbs.db
+node_modules
+vendor
+www/css
+
+## Nette
+# Nette - http://nette.org
+app/config/config.local.neon
+log/*
+temp/*
+!log/.htaccess
+!temp/.htaccess
+
